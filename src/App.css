@@ -37,3 +37,19 @@ main {
     align-items: center;
     row-gap: 2rem;
 }
+
+#todo-list ul {
+    display: flex;
+    flex-direction: column;
+}
+.todo-item {
+    background-color: var(--very-dark-desaturated-blue);
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.task-and-checkbox {
+    display: flex;
+    gap: 0.5rem;
+}
